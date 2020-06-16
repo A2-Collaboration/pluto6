@@ -14,6 +14,7 @@ add_subdirectory(dalitz_mod)
 add_subdirectory(brems)
 add_subdirectory(hades)
 add_subdirectory(nucleus_fermi)
+add_subdirectory(dalitz_radiative-corrections)
 
 
 SET(PLUGIN_CLASSES "${PLUGIN_CLASSES}" PARENT_SCOPE)
