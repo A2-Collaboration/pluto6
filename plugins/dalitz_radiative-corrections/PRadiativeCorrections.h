@@ -18,7 +18,7 @@ class PRadiativeCorrections : public PChannelModel {
 
     virtual Double_t GetWeight() = 0;
 
-    Bool_t IsValid();
+    Bool_t IsNotRejected();
 
  protected:
     PParticle *parent, *meson, *lp, *lm;

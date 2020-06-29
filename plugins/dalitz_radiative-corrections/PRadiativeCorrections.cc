@@ -62,7 +62,7 @@ Bool_t PRadiativeCorrections::Init() {
     return kTRUE;
 }
 
-Bool_t PRadiativeCorrections::IsValid() {
+Bool_t PRadiativeCorrections::IsNotRejected() {
     //Use rejection mode...
 
 /*    if (GetVersionFlag() & VERSION_WEIGHTING) return kTRUE;
